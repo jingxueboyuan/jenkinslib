@@ -1,0 +1,16 @@
+#！groovy
+
+@Library('jenkinslib') _
+def tools = new org.devops.tools()
+
+pipeline{
+	agent any
+	stages{
+		stage('GetCode'){
+			steps{
+				echo "get the code!"
+				tools.PrintMes("This is my lib!")
+			}
+		}
+	}
+}
