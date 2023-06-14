@@ -8,7 +8,7 @@ pipeline{
 		stage('GetCode'){
 			steps{
 				echo "get the code!"
-				tools.PrintMes("This is my lib!")
+				//tools.PrintMes("This is my lib!")
 			}
 		}
 	}
