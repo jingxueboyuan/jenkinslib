@@ -19,6 +19,7 @@ pipeline{
 		stage('deploy'){
 			steps{
 				echo "deploy the code to unit."
+				echo "111111111111111111111"
 			}
 		}
 	}
